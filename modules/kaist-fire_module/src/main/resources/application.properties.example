@@ -1,0 +1,6 @@
+server.address=127.0.0.1
+server.port=18080
+# Minimal example only; multi-database and integration adapters are not included.
+spring.datasource.url=${APP_DB_URL}
+spring.datasource.username=${APP_DB_USER}
+spring.datasource.password=${APP_DB_PASSWORD}
